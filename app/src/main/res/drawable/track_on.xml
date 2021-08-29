@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+        <shape android:shape="rectangle">
+
+            <size android:height="48dp"
+                android:width="96dp"/>
+            <corners android:radius="100sp"/>
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="#FFFFFF"
+                android:endColor="#c3c3c3"
+                android:centerX="0.2"
+                android:centerY="10"/>
+
+        </shape>
+    </item>
+
+
+    <item android:drawable="@drawable/locked_thumb"
+        android:bottom="12dp"
+        android:top="12dp"
+        android:right="70dp"
+        android:left="0dp"
+        />
+
+
+
+
+
+</layer-list>

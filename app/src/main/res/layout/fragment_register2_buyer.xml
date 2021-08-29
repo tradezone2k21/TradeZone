@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_buy_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".buyer.register.Register2BuyerFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="157dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="127dp"
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginRight="127dp"
+            android:src="@drawable/ic_buyer_graphic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/add_buy_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginRight="99dp"
+            android:backgroundTint="@android:color/black"
+            android:ems="10"
+            android:hint="@string/address_line"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#494949"
+            android:textColorLink="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <EditText
+            android:id="@+id/city_buy_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginRight="99dp"
+            android:backgroundTint="@android:color/black"
+            android:ems="10"
+            android:hint="@string/city"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#494949"
+            android:textColorLink="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_buy_register" />
+
+        <EditText
+            android:id="@+id/pincode_buy_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginRight="99dp"
+            android:backgroundTint="@android:color/black"
+            android:ems="10"
+            android:hint="@string/pincode"
+            android:inputType="number"
+            android:text=""
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#494949"
+            android:textColorLink="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/city_buy_register" />
+
+        <EditText
+            android:id="@+id/state_buy_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginRight="99dp"
+            android:backgroundTint="@android:color/black"
+            android:ems="10"
+            android:hint="@string/state"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#494949"
+            android:textColorLink="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pincode_buy_register" />
+
+        <Button
+            android:id="@+id/signup_buyer_register"
+            android:layout_width="326dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="56dp"
+            android:text="@string/sign_up"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/state_buy_register" />
+
+        <TextView
+            android:id="@+id/error_box_buy_register"
+            android:layout_width="9dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="177dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#E91E1E"
+            app:layout_constraintBottom_toTopOf="@+id/signup_buyer_register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/state_buy_register" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

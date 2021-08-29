@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Everything Store</string>
+    <string name="Buyer">Buyer</string>
+    <string name="Seller">Seller</string>
+    <string name="Choose_Language">Choose Language</string>
+    <string name="Select">Select</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Register">Register</string>
+    <string name="Get_OTP">Get OTP</string>
+    <string name="Enter_the_OTP_sent_to">Enter the OTP sent to</string>
+    <string name="Resend_OTP">Resend OTP</string>
+    <string name="Confirm_OTP">Confirm OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="Demo_account_enable_disable">Demo account enable / disable</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="name">Name</string>
+    <string name="address_line">Address line</string>
+    <string name="city">City</string>
+    <string name="pincode">Pincode</string>
+    <string name="state">State</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Buy_Items">Buy Items</string>
+    <string name="Your_Orders">Your Orders</string>
+    <string name="cart">Cart</string>
+</resources>

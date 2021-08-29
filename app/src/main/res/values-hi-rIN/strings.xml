@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Everything Store</string>
+    <string name="Buyer" >क्रेता</string>
+    <string name="Seller" >विक्रेता</string>
+    <string name="Choose_Language">भाषा चुनें</string>
+    <string name="Select">चुनते हैं</string>
+    <string name="Phone_Number">फ़ोन नंबर</string>
+    <string name="Register">रजिस्टर करें</string>
+    <string name="Get_OTP">ओटीपी प्राप्त करें</string>
+    <string name="Enter_the_OTP_sent_to">को भेजा गया ओटीपी दर्ज करें</string>
+    <string name="Resend_OTP">ओटीपी पुनः भेजें</string>
+    <string name="Confirm_OTP">ओटीपी की पुष्टि करें</string>
+    <string name="enter_the_otp_sent_to">को भेजा गया ओटीपी दर्ज करें</string>
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="Demo_account_enable_disable">डेमो खाता सक्षम / अक्षम करें</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="phone_no">फोन नंबर।</string>
+    <string name="name">नाम</string>
+    <string name="address_line">पता पंक्ति</string>
+    <string name="city">शहर</string>
+    <string name="pincode">पिन कोड</string>
+    <string name="state">राज्य</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="Buy_Items">Buy Items</string>
+    <string name="Your_Orders">Your Orders</string>
+    <string name="cart">Cart</string>
+</resources>
